@@ -1,10 +1,14 @@
+@import url("layout.css");
+@import url("colors.css");
+
+
 /* first responsive site */
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
-.logo{max-width:75px; margin:15px;}
+.logo{max-width:75px; margin:10px;}
 
 #toggleAssist,
 ul.nav-links {
