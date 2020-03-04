@@ -1,1 +1,36 @@
 /* first responsive site */
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#toggleAssist,
+ul.nav-links {
+display: none;
+}
+
+#toggleAssist:checked + ul.nav-links{
+    display: block;
+}
+
+.toggle-button{
+    width: 40px;
+    float: right;
+    margin: 15px;
+}
+
+ul.nav-links{
+    list-style: none;
+padding-left: 0px;
+}
+ul.nav-links li{
+    padding: 10px;
+    border-bottom: 2px solid dodgerblue;
+
+}
+ul.nav-links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: coral;
+}
