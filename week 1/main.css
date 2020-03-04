@@ -4,6 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+.logo{max-width:75px; margin:15px;}
 
 #toggleAssist,
 ul.nav-links {
@@ -53,4 +54,14 @@ border-bottom: none;
 }
 
 }/* END OF MID-SCREEN MEDIA QUERY */
+
+@media(min-width: 960px) {
+    header {
+        width: 960px;
+        margin: auto;
+
+    }
+}/* END OF LARGE-SCREEN MEDIA QUERY */
+
+
 
