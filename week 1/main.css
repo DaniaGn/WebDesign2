@@ -23,14 +23,34 @@ display: none;
 ul.nav-links{
     list-style: none;
 padding-left: 0px;
+text-align: center;
 }
 ul.nav-links li{
     padding: 10px;
     border-bottom: 2px solid dodgerblue;
-
+   
 }
 ul.nav-links a {
     text-decoration: none;
     text-transform: uppercase;
-    color: coral;
+    color: rgb(32, 178, 214);
 }
+
+@media(min-width: 550px) {
+    .toggle-button {
+        display: none;
+    }
+    ul.nav-links{
+        display: block;
+        float: right;
+        margin-top: 35px;
+
+    }
+ul.nav-links li {
+    display: inline-block;
+border-bottom: none;
+
+}
+
+}/* END OF MID-SCREEN MEDIA QUERY */
+
