@@ -4,26 +4,31 @@ body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    line-height: 25px;
+}
 
-}
-img {
-width: 100%;
-}
 h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 55px;
     text-align: center;
+    text-decoration: none;
+   
+
+
 }
 
 p{ 
     padding: 10px;
     text-align: left;
+    max-width: 90%;
+    margin: 0 auto;
 }
 header{
-    background-color:rgb(12, 12, 12);
+    background-color:rgba(12, 12, 12, 0.9);
 }
 
-.logo{max-width:75px; margin:1px;}
+.logo{max-width:100px; margin:1px;}
+
 
 #toggleAssist,
 ul.nav-links {
@@ -54,8 +59,138 @@ ul.nav-links a {
     text-transform: uppercase;
     color: rgb(245, 249, 250);
     }
- 
-/* START OF MEDIA QUERY */
+
+    .img-page {
+        display: block;
+        width: auto;
+        max-width:99%
+
+    }
+/* ABOUT US PAGE CSS */
+    .about .container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        
+
+    }
+    .content p{
+        background-color:rgba(248, 245, 227, 0.644);
+        
+    }
+ .content {
+     width: 100%;
+     height:600px;
+     background-image: url(about.jpeg);
+     background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+ }
+b{
+    font-size: 30px;
+    color: #000;
+    font-weight: 500px
+
+}
+
+/* SERVICES PAGE CSS */
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    xmin-height: 100vh;
+    xbackground: linear-gradient(#0f4675,#0f4675 50%, #fff 50%, #fff 100%);
+    }
+
+    .container{
+        width: 99%;
+        display: block;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .container .box{
+        position: relative;
+        width: 320px;
+        background: #fff;
+        padding: 100px 40px 60px;
+        box-shadow: 0 15px 45px rgba(0,0,0,.1);
+
+    }
+
+    .container .box:before{
+
+        content:'';
+        position: absolute;
+        top: 0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        background: #e2aa0e;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition:transform 0.5s;
+             
+     }
+    
+    .container .box:hover:before{
+
+        transform: scaleY(1);
+        transform-origin: bottom;
+        transition: transform 0.5s;
+
+
+    }
+    .container .box h2{
+        position: absolute;
+        left: 40px;
+        top: 60px;
+        font-size: 20px;
+        font-weight: 800;
+        z-index: 1;
+        opacity: 0.1;
+        transition: 0.5s;
+
+    }
+
+    .container .box:hover h2{
+        opacity:1;
+        color: #fff;
+        transform: translateY(-40px);
+    }
+
+    .container .box h3{
+
+        position: relative;
+        font-size: 1.5em;
+        z-index: 2;
+        color: #333;
+        transition: 0.5s;
+    }
+    .container .box p{
+
+        position: relative;
+        z-index: 2;
+        color: #555;
+        transition: 0.5s;
+    }
+
+    .container .box:hover h3,
+    .container .box:hover p{
+        color: #fff;
+
+    }
+
+
+/* START OF MID-SCREEN MEDIA QUERY */
 @media(min-width: 550px) {
     .toggle-button {
         display: none;
@@ -71,20 +206,156 @@ ul.nav-links li {
 border-bottom: none;
 
 }
+.img-page{
+    display: block;
+    margin:  auto;
+}
+/* SERVICES PAGE */
+.container .box{
+    margin: 0 auto;
+
+}
 
 
 }/* END OF MID-SCREEN MEDIA QUERY */
 
 @media(min-width: 960px) {
     header {
-        width: 960px;
+       max-width: 100%;
         margin: auto;
     }
- img { 
-     margin: 0 auto;
-     
+    p{ 
+        padding: 20px;
+
+        text-align: justify;
+        
+        max-width: 80%;
+        
+        margin: 100px;
+       
+    }
+    .about .content p{
+        max-width: 50%;
+    }
+
+    .img-page{
+        display: block;
+        float: left;
+
+    }
+/* ABOUT PAGE */
+
+.content {
+    width: 100%;
+    height:100%;
+    background-image: url(about.jpeg);
+    background-size:cover;
+   background-position: center;
+   background-repeat:no-repeat;
+   display: flex;
+   align-items:center;
+   justify-content:center;
+   flex-wrap: wrap
+      
+}
+.main .about{
+    display: block;
+    margin: 0 auto;
+
+}
+  /* SERVICES PAGE */
+
+  .services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   xbackground: linear-gradient(#0f4675,#0f4675 50%, #fff 50%, #fff 100%);
+    }
+
+    .container{
+        width: 99%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .container .box{
+        position: relative;
+        width: 320px;
+        background: #fff;
+        padding: 100px 40px 60px;
+        box-shadow: 0 15px 45px rgba(0,0,0,.1);
+
+    }
+
+    .container .box:before{
+
+        content:'';
+        position: absolute;
+        top: 0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        background: #e2aa0e;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition:transform 0.5s;
+             
+     }
     
- }
+    .container .box:hover:before{
+
+        transform: scaleY(1);
+        transform-origin: bottom;
+        transition: transform 0.5s;
+
+
+    }
+    .container .box h2{
+        position: absolute;
+        left: 40px;
+        top: 60px;
+        font-size: 20px;
+        font-weight: 800;
+        z-index: 1;
+        opacity: 0.1;
+        transition: 0.5s;
+
+    }
+
+    .container .box:hover h2{
+        opacity:1;
+        color: #fff;
+        transform: translateY(-40px);
+    }
+
+    .container .box h3{
+
+        position: relative;
+        font-size: 1.5em;
+        z-index: 2;
+        color: #333;
+        transition: 0.5s;
+    }
+    .container .box p{
+
+        position: relative;
+        z-index: 2;
+        color: #555;
+        transition: 0.5s;
+        margin: 0 auto;
+
+    }
+
+    .container .box:hover h3,
+    .container .box:hover p{
+        color: #fff;
+
+    }
+
+
 }/* END OF LARGE-SCREEN MEDIA QUERY */
 
 
