@@ -1,0 +1,27 @@
+@import url("colors.css");
+@import url("navbar.css");
+
+
+body{
+    margin: 0px;
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+}
+
+
+
+
+@media (min-width: 960px){
+
+   
+  main div img{
+      width:60%;
+      height: auto;
+      flex-direction: row;
+      display: flex;
+  }
+
+}
