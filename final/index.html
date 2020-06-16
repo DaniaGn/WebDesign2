@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
@@ -21,34 +22,62 @@
             <div class="line line-3"></div>
             <span>Close</span>
         </div>
-       
-        <header class="header">
-            <div class="img-wrapper">
-                <img src="images/bg.jpg">
+
+        <header id="header" class="header">
+           
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="images/bg.jpg" style="width:100%">
+                    
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="images/card1.jpg" style="width:100%">
+                    
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="images/cat.jpg" style="width:100%">
+                   
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
             </div>
             <div class="banner">
                 <h1>Saving Lives Since 2002</h1>
                 <p>Thank you to everyone for helping us feed furkids in need!</p>
-                <button>Discover now</button>
-            </div>
+                           </div>
         </header>
 
         <section class="sidebar">
             <ul class="menu">
                 <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="Home">Home</a>
+                    <a href="#header" class="menu-link" data-content="Home">Home</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="About Us">About Us</a>
+                    <a href="#about-us" class="menu-link" data-content="About Us">About Us</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="Blog">Blog</a>
+                    <a href="#blog" class="menu-link" data-content="Blog">Blog</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="Donations">Donations</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="Contact">Contact</a>
+                    <a href="#donation-2" class="menu-link" data-content="Donations">Donations</a>
                 </li>
             </ul>
             <div class="social-media">
@@ -59,7 +88,7 @@
         </section>
         <section class="about-us">
             <div class="section-header">
-                <h1 class="section-heading">About Us</h1>
+                <h1 id="about-us" class="section-heading">About Us</h1>
                 <div class="underline"></div>
             </div>
             <div class="services">
@@ -145,7 +174,7 @@
 
         <section class="blog">
             <div class="section-header">
-                <h1 class="section-heading">Blog</h1>
+                <h1 id="blog" class="section-heading">Blog</h1>
                 <div class="underline"></div>
             </div>
             <div class="cards-wrapper">
@@ -158,7 +187,7 @@
                         <h3>Cats, dogs,...</h3>
                         <p>"As you may have recently heard in the news, a tiger in the Bronx zoo became mildly ill and
                             tested positive for COVID-19."</p>
-                        <button>Read More</button>
+                        
                     </div>
                 </div>
                 <div class="card" data-tilt>
@@ -170,7 +199,7 @@
                         <h3>Pet Poison Helpline 1-800-213-6680</h3>
                         <p>"The #1 cause of poisoning for cats and dogs is prescription drugs!! If you drop your pill on
                             the floor, please find it because your dog or cat will!"</p>
-                        <button>Read More</button>
+                        
                     </div>
                 </div>
                 <div class="card" data-tilt>
@@ -182,11 +211,12 @@
                         <h3>National Cat Health Month</h3>
                         <p>"Love your kitty more by making that annual veterinary appointment TODAY! Your cat will love
                             you for it!"</p>
-                        <button>Read More</button>
+                        
                     </div>
                 </div>
             </div>
         </section>
+        <form>
         <section class="donation-2">
             <div class="donation-wrapper-2">
                 <div class="donation-left-2">
@@ -196,11 +226,11 @@
                         <div class="button">$100</div>
                         <div class="button">$<input type="text" class="set-amount" placeholder=""> </input></div>
                     </div>
-                    
+
                 </div>
                 <div class="donation-right-2">
-                    <h1 class="donation-heading-2">Make a Donation</h1>
-                    <form>
+                    <h1 id="donation-2" class="donation-heading-2">Make a Donation</h1>
+                    
                         <div class="input-group-2">
                             <input type="text" class="field-2">
                             <label class="input-label-2">First Name</label>
@@ -213,36 +243,50 @@
                             <input type="email" class="field-2">
                             <label class="input-label-2">Email</label>
                         </div>
-                        <input type="submit" class="submit-btn-2" value="Donate">
-                                            </form>
+                        <button onclick="validation();" class="submit-btn-2" >Donate</button>
+                    </form>
                 </div>
             </div>
         </section>
-       
-          
 
-            <footer class="footer">
-                <div class="footer-content">
-                    <p class="copyright"> Copyright &copy;2020</p>
-                    <div class="social-list">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
+
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="copyright"> Copyright &copy;2020</p>
+                <div class="social-list">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
                 </div>
-            </footer>
+            </div>
+        </footer>
 
     </div>
 
-   <a href="#" class="scroll-btn">
-       <i class="fas fa-arrow-up"></i>
-   </a>
+    <a href="#" class="scroll-btn">
+        <i class="fas fa-arrow-up"></i>
+    </a>
 
     </div>
     </section>
     </div>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+        function validation(){
+            swal({
+  title: "Thank You!",
+  text: "We received your donation!",
+  icon: "success",
+  button: "Aww Great!",
+});
+}    
+        </script>
+    <script>
+ 
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="tilt.js"></script>
