@@ -1,0 +1,387 @@
+/* bengali */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Baloo Da 2 Regular'), local('BalooDa2-Regular'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ci9J9j0IaUMQZwAJyJQvvdoLNAb2XKYw.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0981-09FB, U+200C-200D, U+20B9, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Baloo Da 2 Regular'), local('BalooDa2-Regular'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ci9J9j0IaUMQZwAJyJQubdoLNAb2XKYw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Baloo Da 2 Regular'), local('BalooDa2-Regular'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ci9J9j0IaUMQZwAJyJQufdoLNAb2XKYw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Baloo Da 2 Regular'), local('BalooDa2-Regular'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ci9J9j0IaUMQZwAJyJQundoLNAb2U.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* bengali */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Baloo Da 2 Medium'), local('BalooDa2-Medium'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJShr-tYxiYk_wajD78w.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0981-09FB, U+200C-200D, U+20B9, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Baloo Da 2 Medium'), local('BalooDa2-Medium'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJShr-tZFiYk_wajD78w.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Baloo Da 2 Medium'), local('BalooDa2-Medium'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJShr-tZBiYk_wajD78w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Baloo Da 2 Medium'), local('BalooDa2-Medium'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJShr-tZ5iYk_wajA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* bengali */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Baloo Da 2 SemiBold'), local('BalooDa2-SemiBold'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJSjb5tYxiYk_wajD78w.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0981-09FB, U+200C-200D, U+20B9, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Baloo Da 2 SemiBold'), local('BalooDa2-SemiBold'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJSjb5tZFiYk_wajD78w.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Baloo Da 2 SemiBold'), local('BalooDa2-SemiBold'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJSjb5tZBiYk_wajD78w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Baloo Da 2 SemiBold'), local('BalooDa2-SemiBold'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJSjb5tZ5iYk_wajA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* bengali */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Baloo Da 2 Bold'), local('BalooDa2-Bold'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJSlL4tYxiYk_wajD78w.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0981-09FB, U+200C-200D, U+20B9, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Baloo Da 2 Bold'), local('BalooDa2-Bold'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJSlL4tZFiYk_wajD78w.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Baloo Da 2 Bold'), local('BalooDa2-Bold'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJSlL4tZBiYk_wajD78w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Baloo Da 2 Bold'), local('BalooDa2-Bold'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJSlL4tZ5iYk_wajA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* bengali */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Baloo Da 2 ExtraBold'), local('BalooDa2-ExtraBold'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJSk77tYxiYk_wajD78w.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0981-09FB, U+200C-200D, U+20B9, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Baloo Da 2 ExtraBold'), local('BalooDa2-ExtraBold'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJSk77tZFiYk_wajD78w.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Baloo Da 2 ExtraBold'), local('BalooDa2-ExtraBold'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJSk77tZBiYk_wajD78w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Baloo Da 2 ExtraBold'), local('BalooDa2-ExtraBold'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJSk77tZ5iYk_wajA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Josefin Slab Light Italic'), local('JosefinSlab-LightItalic'), url(https://fonts.gstatic.com/s/josefinslab/v10/lW-kwjwOK3Ps5GSJlNNkMalnrzYGLNrnHg487Znv.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Josefin Slab Italic'), local('JosefinSlab-Italic'), url(https://fonts.gstatic.com/s/josefinslab/v10/lW-nwjwOK3Ps5GSJlNNkMalnrz6tDs_KPAMW.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Josefin Slab SemiBold Italic'), local('JosefinSlab-SemiBoldItalic'), url(https://fonts.gstatic.com/s/josefinslab/v10/lW-kwjwOK3Ps5GSJlNNkMalnrzZyKtrnHg487Znv.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Josefin Slab Regular'), local('JosefinSlab-Regular'), url(https://fonts.gstatic.com/s/josefinslab/v10/lW-5wjwOK3Ps5GSJlNNkMalnqg6vBMjoPg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Josefin Slab SemiBold'), local('JosefinSlab-SemiBold'), url(https://fonts.gstatic.com/s/josefinslab/v10/lW-mwjwOK3Ps5GSJlNNkMalvdSq6KerlFAke7w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Au-p_0qiz-afTf2IALT4EYFOGEH.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Au-p_0qiz-afTf2IQLT4EYFOGEH.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Au-p_0qiz-afTf2LwLT4EYFOA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Au-p_0qiz-afTf2IALT4EYFOGEH.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Au-p_0qiz-afTf2IQLT4EYFOGEH.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Au-p_0qiz-afTf2LwLT4EYFOA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Au-p_0qiz-afTf2IALT4EYFOGEH.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Au-p_0qiz-afTf2IQLT4EYFOGEH.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Au-p_0qiz-afTf2LwLT4EYFOA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Auwp_0qiz-afT3GLQjUwkQ1OQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Auwp_0qiz-afTzGLQjUwkQ1OQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Auwp_0qiz-afTLGLQjUwkQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Auwp_0qiz-afT3GLQjUwkQ1OQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Auwp_0qiz-afTzGLQjUwkQ1OQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Auwp_0qiz-afTLGLQjUwkQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Auwp_0qiz-afT3GLQjUwkQ1OQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Auwp_0qiz-afTzGLQjUwkQ1OQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Auwp_0qiz-afTLGLQjUwkQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
