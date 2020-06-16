@@ -6,7 +6,9 @@
     list-style: none;
     text-decoration: none;
 }
-
+.wrapper{
+    margin: 0 auto;
+}
 html {
     font-size: 62.5%;
 }
