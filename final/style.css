@@ -584,8 +584,8 @@ html {
     }
 
 .donation-right-2 {
-    width: 70%;
-    padding: 1rem 1rem 1rem 1rem;
+    width: 50%;
+    padding: 1rem 1rem 10rem 10rem;
 }
 
 .donation-heading-2 {
@@ -603,7 +603,9 @@ html {
     flex-direction: column;
     align-items: center;
 }
-
+.form-donation{
+    padding: 0 5rem 20rem 5rem;
+}
 .field-2 {
     width: 100%;
     background-color: transparent;
