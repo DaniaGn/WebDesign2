@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css"/>
+    <title>Drinks</title>
+</head>
+<body>
+
+    <header>
+        <form method="GET" action="">
+            <label for="groupSelect">Group</label>
+            <select id="groupSelect">
+                <option value="juice">Juice</option>
+                <option value="soda">Soda</option>
+                <option value="coffee">Coffee</option>
+            </select>
+
+            <label for="catSelect">Category</label>
+            <select id="catSelect"></select>
+        </form>
+
+    </header>
+    <hr>
+    <main id="galleryCarousel">
+        <img class="drink-imgs" src="images/juice-apricot2.jpg" alt="Juice Option One" id="galleryImg-1">
+
+        <img class="drink-imgs" src="images/soda-pickle.jpg" alt="Soda Option Two" id="galleryImg-2">
+
+        <img class="drink-imgs" src="images/coffee-choco.jpg" alt="Coffee Option Three" id="galleryImg-3">
+    </main>
+    
+    <script src="script.js"></script>
+    
+    <style>
+
+        img{
+            max-width:25%;
+        }
+    </style>
+</body>
+</html>
